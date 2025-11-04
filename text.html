@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="save.ico.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Kevin Soria</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div id="imagen-logo">
+                <img src="yo.jpg" alt="Logo de Kevin Soria" class="logo">
+            </div>
+
+            <div id="nombre-profesion">
+                <p id="nombre">Kevin Soria Pozas</p>
+                <p id="ingeniero">Ingeniero de Software</p>
+            </div>
+            <div id="separador">
+                <ul id="navegador-web">
+                    <li class="indice"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="indice"><a href="#proyectos">Proyectos</a></li>
+                    <li class="indice"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div id="contenedor-principal">
+    <div id="inicio">
+
+        <div id="presentacion">
+            <h1>Kevin Soria Pozas</h1>
+            <h2>Desarrollador de Software</h2>
+        </div>
+
+        <div id="tecnologias">
+            <img src="html.png" alt="htmlico" class="icono-tecnologia">
+            <img src="css.png" alt="cssico" class="icono-tecnologia">
+            <img src="js.png" alt="javascriptico" class="icono-tecnologia">
+            <img src="java.png" alt="javaico" class="icono-tecnologia">
+            <img src="cplus.png" alt="cplusico" class="icono-tecnologia">
+        </div>
+
+    </div>
+
+    <div id="sobre-mi">
+        <h3>Sobre mi<h3>
+        <p class="descripcion">
+            Soy un ingeniero de software apasionado por la tecnología y el desarrollo de aplicaciones
+             innovadoras. Tengo experiencia en diversos lenguajes de programación y un enfoque en crear soluciones eficientes y
+              escalables. Manejo tecnologías como HTML, CSS, Java, JavaScript y C++, buscando siempre mejorar mis habilidades 
+              y aportar valor a cada proyecto.
+        </p>
+    </div>
+
+    <div id="proyectos">
+        <h3>Proyectos</h3>
+        <ul>
+            <li id="tabla1">
+                <h4>Réplica móvil de aplicación bancaria</h4>
+                <p class="descripcion">Este proyecto es una réplica funcional de una aplicación bancaria móvil que simula operaciones básicas como consulta de saldo, movimientos y transferencias, enfocada en un diseño intuitivo y adaptable a dispositivos móviles.</p>
+            </li>
+        </ul>
+
+        <div id="slider">
+
+            <div class="slide active">
+                <img src="slider1.png" alt="Proyecto bancario">
+            </div>
+
+            <div class="slide">
+                <img src="slider2.png" alt="Aplicación de gestión de tareas">
+            </div>
+
+            <div class="slide">
+                <img src="slider3.png" alt="Otro proyecto">
+            </div>
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+    </div>
+
+    <div id="contacto">
+        <h3>Contacto</h3>
+        <p class="descripcion">Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico:</p>
+
+        <div id="formulario">
+        <form id="form-contacto" action="#" method="post">
+
+        <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre-completo" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+
+        <button type="submit" id="btn-enviar">Enviar mensaje</button>
+
+        </form>
+        </div>
+
+    </div>
+
+    <footer>
+
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
